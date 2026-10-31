@@ -1,17 +1,23 @@
-# hello_unimed
+# Hello UNIMED - Pertemuan 1 Pemrograman Mobile
 
-A new Flutter project.
+## Identitas
+- Nama  : Nayla Luthfiah Hanan
+- NIM   : 4243250054
+- Kelas : Ilmu Komputer D 2024
 
-## Getting Started
+## Versi Flutter
+(tempel hasil `flutter --version`: Flutter 3.47.7, Dart 3.13.5)
 
-This project is a starting point for a Flutter application.
+## Tangkapan layar
+- flutter doctor: (gambar)
+- Aplikasi berjalan di emulator/perangkat Android: (gambar)
 
-A few resources to get you started if this is your first Flutter project:
+## Kendala dan solusi
+1. Folder Flutter tidak bisa dipindah ("Folder In Use") ... (tulis solusimu)
+2. Emulator langsung terminate ... (tulis solusimu)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Penggunaan AI
+(tulis bagian mana yang dibantu AI dan apa yang kamu pelajari)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Esai: Native, Hybrid, Cross-platform
+(150-250 kata dengan kata-katamu sendiri, lengkap dengan satu contoh kasus untuk masing-masing)
