@@ -11,11 +11,14 @@
 
 ## Tangkapan layar
 - flutter doctor: <img width="602" height="215" alt="image" src="https://github.com/user-attachments/assets/f7ea818f-ece2-4b7e-aad1-53e39101a8ec" />
-- Aplikasi berjalan di emulator/perangkat Android: (gambar)
+- Aplikasi berjalan di emulator/perangkat Android: <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/45d4788f-0496-47a6-93bd-1c90892cb6d4" />
+Setelah ubah warna (Colors.green jadi Colors.indigo di main.dart): <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/122fcf4a-34dd-4de5-8b41-5748d027d8e6" />
+
+
 
 ## Kendala dan solusi
 1. Folder Flutter tidak bisa dipindah ("Folder In Use"), saya sudah menutup vscode, terminal vscode, dan pada bagian task manager juga ternyata masih belum bisa. Solusinya adalah saya restart laptop..
-2. Emulator Android (Medium Phone API 37.0) langsung berhenti saat dijalankan dengan pesan "The emulator process for AVD has terminated", jadi `flutter devices` tidak menemukan perangkat Android. Saya mengecek penyebabnya, yaitu virtualisasi di BIOS, Windows Hypervisor Platform, dan versi system image yang masih sangat baru. (Tulis solusi yang akhirnya berhasil, misalnya: emulator baru dengan API 36 / memakai ponsel fisik dengan USB debugging.)
+2. 2. Emulator Android langsung berhenti dengan galat "Not enough space to create userdata partition" karena ruang drive C kurang dari 12 GB. Sebagai gantinya saya menjalankan aplikasi di HP Android (Realme C55) dengan USB debugging. Saat `flutter run` pertama sempat gagal karena NDK tidak terpasang, lalu saya memasangnya lewat SDK Manager > SDK Tools > NDK (Side by side).
 3. VS Code terbuka di folder `D:\dev`, bukan `D:\dev\hello_unimed`, sehingga file SDK Flutter ikut terbaca dan Problems mencapai ribuan. Solusinya menutup folder, lalu membuka langsung folder proyek dengan File > Open Folder.
 
 ## Penggunaan AI
